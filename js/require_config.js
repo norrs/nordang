@@ -2,9 +2,9 @@ var require = {
     baseUrl: 'js/',
     waitSeconds: 7, // default
     paths: {
-        "libs/jquery": "libs/jquery-1.9.1.min",
         //"libs/autobahn": "libs/autobahn.min",
         "libs": "libs",
+        "text": "libs/text",
         "libs-amd": "resources/libs",
         "plugins": "src/plugins",
         'libs/highcharts': 'libs/highcharts.src',
