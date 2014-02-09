@@ -8,7 +8,9 @@
         "Backbone",
         "Highcharts",
         "Handlebars",
-        "FB"
+        "FB",
+        "gapi",
+        "google"
     ],
     "browser":  true,
     "devel":    true,
