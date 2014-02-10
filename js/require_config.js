@@ -5,13 +5,23 @@ var require = {
         //"libs/autobahn": "libs/autobahn.min",
         "libs": "libs",
         "text": "libs/text",
+        "noext": "libs/noext",
+        "async": "libs/async",
+        "goog": "libs/googl",
+        "propertyParser": "libs/property_parser",
         "libs-amd": "resources/libs",
         "plugins": "src/plugins",
         'libs/highcharts': 'libs/highcharts.src',
         "when": "libs/when",
-        'facebook': '//connect.facebook.net/en_US/all'
+        'facebook': '//connect.facebook.net/en_US/all',
     },
     shim: {
+        'gapi': {
+            export: 'gapi'
+        },
+        'gdata': {
+            export: 'google'
+        },
         'facebook': {
             export: 'FB'
         },
